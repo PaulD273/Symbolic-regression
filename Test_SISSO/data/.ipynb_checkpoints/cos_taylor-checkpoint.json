@@ -15,7 +15,6 @@
         "add",
         "sub",
         "mult",
-        "div",
-        "sin"
+        "div"
     ]
 }

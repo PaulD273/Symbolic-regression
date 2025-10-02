@@ -1,7 +1,7 @@
 {
-    "data_file": "/home/paolo/Thesis/Test_SISSO/data/cosine_data.csv",
+    "data_file": "/home/paolo/Thesis/Test_SISSO/data/gaussian_data.csv",
     "property_key": "target",
-    "desc_dim": 1,
+    "desc_dim": 2,
     "n_sis_select": 10,
     "max_rung": 3,
     "calc_type": "regression",
@@ -16,6 +16,10 @@
         "sub",
         "mult",
         "div",
-        "sin"
+        "cos",
+        "sin",
+        "sqrt",
+        "sq",
+        "exp"
     ]
 }
