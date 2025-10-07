@@ -1,0 +1,22 @@
+# FEAT_ID     Feature Postfix Expression (RPN)
+0             0|sq|sq|sq|0|sq|0|sub|0|sq|0|add|mult|mult|0|sq|add
+1             0|sq|0|add|0|add|0|sq|sq|sub|0|sq|0|sub|0|sub|0|sq|sq|sub|mult
+2             0|sq|0|sub|0|sq|mult|0|sq|0|add|mult|0|sq|0|sub|0|sub|0|sq|0|add|0|add|mult|sub
+3             0|sq|sq|0|add|0|sq|mult|0|sq|0|add|0|mult|0|sq|sq|0|sq|add|add|sub
+4             0|sq|0|add|0|sq|mult|0|sq|0|add|0|add|sub|0|sq|0|sub|0|sub|0|sq|sq|0|sq|0|add|mult|sub|mult
+5             0|sq|0|add|0|add|0|sq|sq|0|sq|0|sub|mult|sub|0|sq|0|sub|0|sub|0|sq|0|sub|0|sq|mult|sub|mult
+6             0|sq|sq|sq|0|sq|0|sub|0|sq|0|add|mult|sub|0|sq|0|sub|0|sub|0|sq|0|add|0|add|mult|sub
+7             0|sq|0|sub|0|sq|mult|0|sq|sq|0|sq|0|add|mult|mult|0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|add
+8             0|sq|sq|sq|0|sq|0|sub|0|sq|0|add|mult|mult|0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|sub
+9             0|sq|0|sub|0|sq|mult|0|sq|sq|0|sq|0|add|mult|mult|0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|sub
+10            0|sq|sq|0|add|0|sq|sq|0|sq|0|add|sub|mult|0|sq|0|sub|0|mult|add
+11            0|sq|0|add|0|add|0|sq|sq|0|sub|sub|0|sq|0|sub|0|sub|0|sq|sq|0|add|sub|mult
+12            0|sq|0|add|0|add|0|sq|sq|0|sq|0|add|sub|sub|0|sq|0|sub|0|sub|0|sq|sq|0|sq|0|sub|sub|sub|mult
+13            0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|0|sq|0|sub|0|sub|0|sq|0|add|0|add|mult|sub
+14            0|sq|sq|sq|0|sq|0|sub|0|sq|0|add|mult|mult|0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|add
+15            0|sq|sq|0|sq|0|add|sub|0|sq|sq|0|sq|0|sub|sub|mult|0|sq|0|sub|0|sub|0|sq|0|add|0|add|mult|add
+16            0|sq|sq|0|add|0|sq|sq|0|sq|0|add|sub|mult|0|sq|0|sub|0|mult|0|sq|sub|add
+17            0|sq|sq|sq|0|sq|sq|0|sq|add|sub|0|sq|sq|0|sq|add|0|sq|0|sub|0|sq|0|add|mult|mult|sub
+18            0|sq|0|sub|0|sq|0|add|mult|sq|0|sq|0|add|0|mult|0|sq|0|sub|0|mult|sub|add
+19            0|sq|0|add|0|add|0|add|0|sq|0|sub|0|sub|0|sub|mult
+#-----------------------------------------------------------------------
