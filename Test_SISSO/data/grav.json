@@ -1,0 +1,15 @@
+{
+    "data_file": "/home/paolo/Thesis/Test_SISSO/data/grav_data.csv",
+    "property_key": "target",
+    "desc_dim": 9,
+    "n_sis_select": 10,
+    "max_rung": 2,
+    "calc_type": "regression",
+    "min_abs_feat_val": 0.01,
+    "max_abs_feat_val": 100000.0,
+    "n_residual": 10,
+    "n_models_store": 1,
+    "leave_out_frac": 0.0,
+    "leave_out_inds": [],
+    "opset": "all"
+}

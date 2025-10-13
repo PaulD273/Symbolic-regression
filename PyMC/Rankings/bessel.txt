@@ -1,0 +1,12 @@
+# FEAT_ID     Score                   Feature Expression
+0             0.958487281373325728    ((((feature_0^2) - feature_0) * ((feature_0^2) + feature_0)) - (feature_0^2))
+1             0.959483222281293457    ((((feature_0^2)^2) + (feature_0^2)) + ((feature_0^2)^2))
+2             0.974625130000399964    ((feature_0^2) / (((feature_0^2)^2) + (feature_0^2)))
+3             0.976676209763045367    ((((feature_0^2) - feature_0) / feature_0) + (((feature_0^2)^2) + ((feature_0^2) - feature_0)))
+4             0.983796310035297994    ((((feature_0^2)^2)^2) - (((feature_0^2)^2) + (feature_0^2)))
+5             0.988860530709832042    ((((feature_0^2)^2) + (feature_0^2)) + (feature_0^2))
+6             0.992495259295154586    ((((feature_0^2)^2) - ((feature_0^2) + feature_0)) * (((feature_0^2)^2) - ((feature_0^2) - feature_0)))
+7             0.995748303688481107    ((((feature_0^2) - feature_0) - feature_0) * (((feature_0^2) + feature_0) + feature_0))
+8             0.999734636009203981    ((((feature_0^2) - feature_0) * ((feature_0^2) + feature_0)) - ((feature_0^2)^2))
+9             0.999734636009298572    ((((feature_0^2) - feature_0) * ((feature_0^2) + feature_0)) / (feature_0^2))
+#-----------------------------------------------------------------------

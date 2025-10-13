@@ -1,12 +1,89 @@
 # FEAT_ID     Feature Postfix Expression (RPN)
-0             0|sq|cos
-1             0|cos|0|sq|mult
-2             0|cos|sq
-3             0|sq|sin
-4             0|cos|0|sq|add
-5             0|sin|0|mult
-6             0|sq
-7             0|cos|0|sq|sub
-8             0|sin|0|div
-9             0|cos
+0             4|1|add|2|0|add|mult
+1             4|1|add|2|0|mult|add
+2             4|1|mult|2|0|mult|add
+3             4|0|add|2|1|add|mult
+4             4|2|add|1|0|add|mult
+5             2|1|mult|8|0|mult|mult
+6             0|3|div|2|1|mult|mult
+7             4|1|mult|2|0|mult|mult
+8             1|0|mult|2|7|div|mult
+9             1|0|mult|2|5|div|mult
+#-----------------------------------------------------------------------
+10            6|4|mult|8|3|abd|div
+11            6|4|mult|8|7|abd|div
+12            8|4|add|5|3|mult|div
+13            8|6|add|5|4|sub|abd
+14            8|4|mult|6|3|abd|div
+15            8|6|mult|7|4|sub|div
+16            8|4|mult|7|6|sub|div
+17            8|4|mult|6|5|sub|div
+18            8|6|mult|5|4|sub|div
+19            6|4|mult|8|5|sub|div
+#-----------------------------------------------------------------------
+20            2|0|mult|6|cos|mult
+21            5|sin|4|1|add|mult
+22            5|sin|4|2|add|mult
+23            8|4|mult|6|cos|mult
+24            6|cos|4|3|abd|div
+25            3|sin|6|2|add|mult
+26            3|sin|8|6|add|mult
+27            3|sin|6|1|add|mult
+28            5|sin|8|4|add|mult
+29            4|2|mult|6|cos|mult
+#-----------------------------------------------------------------------
+30            3|4|div|8|2|mult|abd
+31            3|8|div|6|2|mult|abd
+32            3|8|div|2|0|mult|abd
+33            3|8|div|4|2|mult|abd
+34            8|4|mult|5|2|div|abd
+35            4|0|mult|5|8|div|abd
+36            5|0|div|8|4|mult|abd
+37            8|0|mult|5|4|div|abd
+38            8|2|mult|5|4|div|abd
+39            4|2|mult|5|8|div|abd
+#-----------------------------------------------------------------------
+40            7|6|add|5|2|add|abd
+41            7|2|div|8|6|mult|abd
+42            5|8|div|6|2|mult|abd
+43            7|8|div|6|2|mult|abd
+44            3|6|div|8|1|mult|abd
+45            7|2|sub|5|4|sub|abd
+46            3|6|div|8|2|mult|abd
+47            3|8|div|6|1|mult|abd
+48            3|1|div|8|6|mult|abd
+49            3|2|div|8|6|mult|abd
+#-----------------------------------------------------------------------
+50            3|2|mult|7|4|mult|abd
+51            7|4|mult|5|2|mult|abd
+52            3|2|add|8|7|add|abd
+53            2|7|div|8|3|div|abd
+54            5|0|sub|4|1|mult|abd
+55            8|2|abd|6|4|abd|add
+56            1|0|mult|5|6|div|abd
+57            8|2|abd|6|0|abd|add
+58            3|2|mult|8|7|mult|abd
+59            4|3|abd|7|2|sub|abd
+#-----------------------------------------------------------------------
+60            8|2|abd|5|3|abd|add
+61            8|1|abd|5|3|abd|add
+62            0|6|div|8|1|div|abd
+63            8|2|abd|6|0|abd|mult
+64            7|5|abd|8|2|abd|add
+65            5|1|div|6|4|mult|abd
+66            1|6|div|8|0|div|abd
+67            1|8|div|6|0|div|abd
+68            1|0|add|8|6|add|abd
+69            1|0|mult|8|6|mult|abd
+#-----------------------------------------------------------------------
+70            5|3|abd|7|cos|add
+71            1|3|div|5|3|abd|mult
+72            8|0|mult|5|3|abd|mult
+73            5|3|abd|7|0|mult|mult
+74            5|3|abd|7|sin|sub
+75            7|3|abd|5|3|abd|add
+76            5|3|abd|7|sqrt|add
+77            5|1|mult|5|3|abd|mult
+78            5|3|abd|7|log|add
+79            7|1|mult|5|3|abd|mult
 #-----------------------------------------------------------------------
