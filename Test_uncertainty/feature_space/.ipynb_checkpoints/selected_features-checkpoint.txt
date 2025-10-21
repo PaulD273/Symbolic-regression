@@ -1,0 +1,12 @@
+# FEAT_ID     Feature Postfix Expression (RPN)
+0             0|sin|0|sub|sq
+1             0|sin|0|sub|cos
+2             0|sin|0|sq|mult|sq
+3             0|sq|sin|0|sq|sub
+4             0|sin|0|sq|mult|cos
+5             0|sq|sq|0|sin|0|mult|mult
+6             0|sin|0|sub|0|sin|0|sq|mult|mult
+7             0|sq|sq|0|sq|sin|mult
+8             0|sq|sq|0|sin|0|sub|sub
+9             0|sq|cos|0|sin|0|sub|add
+#-----------------------------------------------------------------------

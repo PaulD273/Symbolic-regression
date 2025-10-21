@@ -1,0 +1,24 @@
+{
+    "data_file": "/home/paolo/Thesis/Test_SISSO/data/bessel_data.csv",
+    "property_key": "y",
+    "desc_dim": 2,
+    "n_sis_select": 10,
+    "max_rung": 2,
+    "calc_type": "regression",
+    "min_abs_feat_val": 1e-05,
+    "max_abs_feat_val": 100000000.0,
+    "n_residual": 10,
+    "n_models_store": 5,
+    "leave_out_frac": 0.0,
+    "leave_out_inds": [],
+    "opset": [
+        "add",
+        "sub",
+        "mult",
+        "div",
+        "cos",
+        "sin",
+        "sqrt",
+        "sq"
+    ]
+}
