@@ -1,5 +1,5 @@
 {
-    "data_file": "/home/paolo/Thesis/Test_SISSO/data/bessel_data.csv",
+    "data_file": "/home/paolo/Thesis/Test_uncertainty/data/bessel_data.csv",
     "property_key": "target",
     "desc_dim": 1,
     "n_sis_select": 10,
