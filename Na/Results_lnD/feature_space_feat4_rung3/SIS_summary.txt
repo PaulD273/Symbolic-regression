@@ -1,0 +1,12 @@
+# FEAT_ID     Score                   Feature Expression
+0             0.911159832847177942    (((rho + E/T) + (rho - AAV)) / ((VPA * E/T) + (rho + AAV)))
+1             0.911163924268473813    (((rho + E/T) + (rho - AAV)) / ((VPA * E/T) + AAV))
+2             0.9112488804963359      (((rho + E/T) + (rho - AAV)) / ((VPA - rho) + (VPA * E/T)))
+3             0.911252033187319621    (((rho + E/T) + (rho - AAV)) / ((VPA + rho) + (VPA * E/T)))
+4             0.911254765547558798    (((rho + E/T) + (rho - AAV)) / ((VPA * E/T) + VPA))
+5             0.91138690555143731     (((rho + E/T) + (rho - AAV)) / ((VPA + AAV) + (VPA * E/T)))
+6             0.911423371434978979    (((rho + E/T) + (rho - AAV)) / ((AAV + E/T) + (VPA * E/T)))
+7             0.911493659385226529    (((rho + E/T) + (rho - AAV)) / ((AAV / rho) + (VPA * E/T)))
+8             0.911545380293582341    (((rho + E/T) + (rho - AAV)) / ((VPA * E/T) + (VPA + E/T)))
+9             0.911906623309572062    (((rho + E/T) + (rho - AAV)) / ((VPA / rho) + (VPA * E/T)))
+#-----------------------------------------------------------------------
