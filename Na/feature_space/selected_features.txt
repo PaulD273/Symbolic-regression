@@ -1,12 +1,12 @@
 # FEAT_ID     Feature Postfix Expression (RPN)
-0             12|exp|3|2|div|mult
-1             5|1|mult|1|4|div|add
-2             1|2|div|9|8|add|div
-3             18|12|add|15|2|sub|add
-4             3|4|div|5|1|mult|add
-5             17|2|sub|18|12|add|add
-6             12|exp|5|1|mult|mult
-7             9|2|add|10|8|add|add
-8             16|14|add|18|2|sub|sub
-9             3|2|div|9|8|add|div
+0             26|1|mult|28|20|add|sub
+1             31|27|div|33|27|add|mult
+2             29|28|sub|26|2|add|div
+3             28|8|sub|26|2|add|div
+4             31|28|mult|31|0|div|mult
+5             28|21|sub|27|2|add|div
+6             28|19|sub|26|2|add|div
+7             28|21|div|26|2|add|div
+8             28|21|sub|26|2|add|div
+9             26|4|mult|29|9|add|sub
 #-----------------------------------------------------------------------
