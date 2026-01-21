@@ -1,0 +1,12 @@
+# FEAT_ID     Score                   Feature Expression
+0             0.489927009946379999    ((face-area-count * RBI) / (RBI - SBI))
+1             0.491214700582180031    ((cub_root_V / RBI) + (face-area-count + face-area-max))
+2             0.491531655138610302    ((SBI / NBI) + (face-area-avg - Ge))
+3             0.491855641590148163    ((face-area-max - Na-Na-avg) / (poly_dist_avg + PF))
+4             0.491921557696249512    ((B + SBI) + (face-area-avg + Al))
+5             0.491941676785996151    ((poly_dist_avg * RBI) - (face-area-avg + O))
+6             0.495623021255845619    ((B + SBI) + (face-area-avg + SBI))
+7             0.496080229903513192    ((S + NBI) * (poly_dist_avg + PF))
+8             0.498937293455475828    ((SBI / NBI) + (face-area-avg + B))
+9             0.499214584293214136    ((cub_root_V / RBI) + (face-area-count + RBI))
+#-----------------------------------------------------------------------

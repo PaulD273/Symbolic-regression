@@ -1,0 +1,12 @@
+# FEAT_ID     Score                   Feature Expression
+0             0.758933173382887349    (((face-area-count + cub_root_V) - (face-area-avg - cub_root_V)) + (sin(face-area-avg) * (face-area-avg - cub_root_V)))
+1             0.758936273840990272    ((sin(face-area-avg) * (face-area-avg - cub_root_V)) + ((AAV / face-area-count) + (face-area-count + cub_root_V)))
+2             0.758937502176801337    (((face-area-count + cub_root_V) + cub_root_V) + (sin(face-area-avg) * (face-area-avg - cub_root_V)))
+3             0.758956512217059953    (((AAV / face-area-avg) + (face-area-count + cub_root_V)) - (sin(face-area-avg) * cub_root_V))
+4             0.75895861624519867     (((face-area-count + cub_root_V) - (face-area-count / AAV)) + (sin(face-area-avg) * (face-area-avg - cub_root_V)))
+5             0.758967283901046952    (((AAV / face-area-avg) + (face-area-count + cub_root_V)) + (sin(face-area-avg) * (face-area-avg - cub_root_V)))
+6             0.759003477819563344    (((cub_root_V / face-area-count) + (face-area-count + cub_root_V)) + (sin(face-area-avg) * (face-area-avg - cub_root_V)))
+7             0.759017940471885089    (((face-area-count + cub_root_V) + (face-area-avg + cub_root_V)) - (sin(face-area-avg) * cub_root_V))
+8             0.75903256654778728     (((face-area-count + cub_root_V) + cub_root_V) - (sin(face-area-avg) * cub_root_V))
+9             0.759038739377057792    (((face-area-count + cub_root_V) - (face-area-avg - cub_root_V)) - (sin(face-area-avg) * cub_root_V))
+#-----------------------------------------------------------------------
