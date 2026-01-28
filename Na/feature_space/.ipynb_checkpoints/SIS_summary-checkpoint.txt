@@ -1,0 +1,12 @@
+# FEAT_ID     Score                   Feature Expression
+0             0.904773320077674414    ((face-area-avg / E_T) - (poly_dist_avg * O))
+1             0.905578489162513711    ((O / Na-Na-avg) - (face-area-avg / E_T))
+2             0.905636709117302874    ((face-area-avg / E_T) - (poly_dist_avg_fixed * SBI))
+3             0.906717420762740423    ((face-area-avg / E_T) - (poly_dist_avg_fixed / RBI))
+4             0.907155507294778674    ((face-area-avg / E_T) - (poly_dist_avg * SBI))
+5             0.907641992685561227    ((face-area-avg / E_T) - (poly_dist_avg / RBI))
+6             0.909877060132030291    (cos(O) + (face-area-avg / E_T))
+7             0.911476333324782284    ((O * SBI) - (face-area-avg / E_T))
+8             0.912079137112775662    ((face-area-avg - O) / (rho + E_T))
+9             0.914843000669174344    ((face-area-avg - O) / (face-area-avg + E_T))
+#-----------------------------------------------------------------------
