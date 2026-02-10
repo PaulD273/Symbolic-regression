@@ -1,0 +1,8 @@
+Phase, 1 node (max rank), 2 nodes (max rank), 10 nodes (max rank)
+Input parsing, 0.0407792, 0.0441415, 0.214168
+Feat space generation, 121.02, 122.654, 140.675
+Projection time, 3.6327, 3.64512, 10.1422
+Time to get best features on rank, 0.000128172, 0.000188589, 0.000131078
+SIS, 7.34112, 7.37945, 14.2107
+l0-norm, 0.0383294, 0.0975195, 0.0829721
+Train RMSE, 0.43248,  0.43248, 0.43248
