@@ -1,0 +1,7 @@
+mu-dependent sigmas
+
+c0_coeff = pm.Normal("c0", mu=c0[i], sigma=1.0 + 0.5 * abs(c0[i]))
+a0_coeff = pm.Normal("a0", mu=a0[i], sigma=1.0 + 0.5 * abs(a0[i]))
+a1_coeff = pm.Normal("a1", mu=a1[i], sigma=1.0 + 0.5 * abs(a1[i]))
+a2_coeff = pm.Normal("a2", mu=a2[i], sigma=1.0 + 0.5 * abs(a2[i]))
+sigma = pm.HalfNormal("sigma", sigma=2)
