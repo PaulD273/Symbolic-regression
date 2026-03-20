@@ -1,0 +1,20 @@
+{
+    "data_file": "/home/paolo/Thesis/Na/data/final/Na_lndiff40_temp300_unitless3.csv",
+    "property_key": "ln_D",
+    "desc_dim": 1,
+    "n_sis_select": 10,
+    "max_rung": 3,
+    "calc_type": "regression",
+    "min_abs_feat_val": 1e-05,
+    "max_abs_feat_val": 1000000.0,
+    "n_residual": 1,
+    "n_models_store": 10,
+    "leave_out_frac": 0.0,
+    "leave_out_inds": [],
+    "opset": [
+        "add",
+        "sub",
+        "mult",
+        "div"
+    ]
+}
