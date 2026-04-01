@@ -1,0 +1,11 @@
+Complexity,Loss,Equation
+1,1.1532967,"poly_dist_max"
+3,0.7069486,"Ge_frac - face_area_avg"
+5,0.5928557,"(SBI * face_area_avg) - face_area_avg"
+7,0.550698,"Na_frac * (PF - (face_area_avg / PF))"
+9,0.5243968,"Na_frac - ((Al_frac + (face_area_avg * Na_frac)) / PF)"
+11,0.49565256,"Na_frac - (((Al_frac + B_frac) + (face_area_avg * Na_frac)) / PF)"
+17,0.4756152,"(PF - (Al_frac * (WE - O_frac))) - (((Na_frac * face_area_avg) + (Si_frac + B_frac)) / PF)"
+18,0.45707163,"(PF - (Al_frac * 3.4040012)) - (((face_area_avg * Na_frac) + (Si_frac + B_frac)) / PF)"
+28,0.45700526,"(((PF - -1.0705191) + -1.0786631) - (Al_frac * 3.4040012)) - (((B_frac + Si_frac) + (face_area_avg * Na_frac)) / PF)"
+29,0.44593775,"(((F_frac - Al_frac) - (Al_frac * 2.610251)) + PF) - (((face_area_avg - -2.8305538) * (B_frac + Si_frac)) + (face_area_avg * (Na_frac / PF)))"
